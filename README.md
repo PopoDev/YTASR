@@ -6,11 +6,21 @@ This dataset is a collection of YouTube videos audio with their subtitles.
 
 ## Getting Started
 
-Clone the repository and install the requirements.
+Clone the repository
 
 ```bash
 git clone https://github.com/PopoDev/YTASR.git
 cd YTASR
+```
+Create a new environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Install the dependencies in a new environment
+```bash
 pip install -r requirements.txt
 ```
 
